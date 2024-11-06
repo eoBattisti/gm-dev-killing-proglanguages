@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
 
     /// <summary>
     /// Alterar o volume do AudioListener da cena baseado no valor do volumeSlider.
+    /// E salva as alterações.
     /// </summary>
     public void ChangeVolume()
     {
